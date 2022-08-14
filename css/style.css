@@ -1,31 +1,49 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+.grid-container {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 6fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "header header header"
+      "main main main"
+      "footer footer footer"; 
+  }
 
 .header{
-    height: 400px;
-    background-size: cover;
+    display: flex;
+    background-size:cover;
     background-image: url('../img/header2.0.jpg');
     background-position: bottom;
+    grid-area: header;
+    flex-direction: column;
+    justify-content: flex-start;
 }
-
+/* 
 .header nav {
 	position: relative;
 	top: 5px;
 	left: 200px;
-}
+} */
 
 .header ul {
     list-style: none;
     font-size:0; 
-    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
  }
 .header li {
-    display: inline-block;
-    width: 15%;
-    position:relative;
     font-size: 20px;
+    padding: 3vw;
  }
 
 .header img{
@@ -35,6 +53,17 @@
 
 .main{
     background-color: #8C8C90;
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main img{
+    width: 95vw;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    border: #4a4ab8 5px solid;   
 }
 
 .main h1{
@@ -58,24 +87,47 @@
 }
 
 .main p{
-    margin: 5px 5px 5px 5px;    
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    border: #4a4ab8 5px solid;   
 }
 
 .main iframe{
-    width: 250px;
-    height: 150px;
+    width: 40vw;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    border: #4a4ab8 5px solid;   
 }
 
 #video-index{
-    width: 720px; 
-    height: 415px;
+    width: 95vw;
+    height: 55vh;
 }
 
 .footer{    
     background-size: cover;
     background-image: url('../img/imagen-inicio-2.jpg');
     background-position: bottom;
-    height: 499px;
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer ul{
+    list-style: none;
+    font-size:0; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer li{
+    font-size: 20px;
+    padding: 3vw;
 }
 
 .footer p{
@@ -85,3 +137,5 @@
 .footer a{
     color: aquamarine;
 }
+
+/* dispositivos medianos */
