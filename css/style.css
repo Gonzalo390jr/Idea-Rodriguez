@@ -29,7 +29,7 @@
 
 .nav {
     list-style: none;
-    font-size: 4vh;
+    font-size: 7vh;
     background-image: linear-gradient(to bottom, white, #8C8C90);
     display: flex;
     flex-direction: row;
@@ -40,7 +40,7 @@
 }
 
 .nav li {
-    font-size: 2vw;
+    font-size: 5vw;
     padding: 1vw;
 }
 
@@ -114,6 +114,7 @@
 }
 
 .main a {
+    font-size: 5vw;
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;
     border: #4a4ab8 5px solid;
@@ -180,6 +181,14 @@
         grid-template-rows: 50vh 10vh auto 60vh;
     }
 
+    .nav{
+        font-size: 4vw;
+    }
+
+    .nav li{
+        font-size: 2vw;
+    }
+
     .grid-index {
         display: grid;
         grid-template-columns: 48vw 50vw;
@@ -210,7 +219,7 @@
         height: 50vh;
     }
 
-    .grid-personajes {
+    .grid-personajes-y-ciudades {
         display: grid;
         grid-template-columns: 99vw;
         grid-row: 20vh 100vh;
@@ -219,56 +228,200 @@
             "ul";
     }
 
-    .grid-personajes h1{
-        grid-area: h1;
-    }
-
-    .grid-personajes ul{
+    .grid-personajes-y-ciudades ul {
         grid-area: ul;
-        overflow-x:auto;
+        overflow-x: auto;
         display: flex;
         flex-direction: row;
     }
 
-    .grid-personajes li{
+    .grid-personajes-y-ciudades li {
         width: 90vw;
         height: 95vh;
         display: grid;
         grid-template-columns: 35vw 45vw;
         grid-template-rows: 15vh 32vh 35vh;
         grid-template-areas:
-        "h2 h2 h2"
-        "img p p"
-        "img iframe iframe";
+            "h2 h2 h2"
+            "img p p"
+            "img iframe iframe";
     }
 
-    .grid-personajes img{
+    .grid-personajes-y-ciudades img {
         grid-area: img;
         width: auto;
-        height: 50vh;
+        height: 60vh;
         padding: 2vw;
         margin: 2vw;
         border: #5151cf 1vw solid;
     }
 
-    .grid-personajes h2{
+    .grid-personajes-y-ciudades .foto-gorda {
+        width: 30vw;
+        height: auto;
+        padding: 2vw;
+        margin: 2vw;
+        border: #5151cf 1vw solid;
+    }
+
+    .grid-personajes-y-ciudades h2 {
         grid-area: h2;
         padding: 2vw;
         margin: 2vw;
         border: #5151cf 1vw solid;
     }
 
-    .grid-personajes p{
+    .grid-personajes-y-ciudades p {
         grid-area: p;
+        width: 42vw;
+        height: 28vh;
+        overflow: auto;
         padding: 2vw;
         margin: 2vw;
         border: #5151cf 1vw solid;
     }
 
-    .grid-personajes iframe{
+    .grid-personajes-y-ciudades iframe {
         grid-area: iframe;
         width: 40vw;
         height: 30vh;
+        padding: 2vw;
+        margin: 2vw;
+        border: #5151cf 1vw solid;
+    }
+
+    .inicio-h1 {
+        grid-area: h1;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .inicio-h1 p {
+        width: 50vw;
+        height: 20vh;
+        overflow: auto;
+        padding: 2vw;
+        margin: 2vw;
+        border: #4a4ab8 1vw solid;
+    }
+
+    .grid-critica {
+        display: grid;
+        grid-template-columns: 99vw;
+        grid-row: 20vh 100vh;
+        grid-template-areas:
+            "h1"
+            "ul";
+    }
+
+    .grid-critica ul {
+        grid-area: ul;
+        overflow: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .grid-critica ul li .lista-critica{
+        display: flex;
+        flex-direction: column;
+        width: 65vw;
+        height: 65vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    .lista-critica .nota{
+        width: auto;
+        height: 30vh;
+        padding: 2vw;
+        margin: 2vw;
+        border: #5151cf 1vw solid;
+    }
+
+    .lista-critica .portada{
+        width: 25vw;
+        height: auto;
+        padding: 2vw;
+        margin: 2vw;
+        border: #5151cf 1vw solid;
+    }
+
+    .lista-critica .enlace{
+        font-size: 2vw;
+        padding: 2vw;
+        margin: 2vw;
+        border: #5151cf 1vw solid;
+   }
+
+   .lista-critica p{
+    font-size: 2vw;
+   }
+
+   .grid-descarga{
+    display: grid;
+    grid-template-columns: 99vw;
+    grid-row: 20vh 100vh;
+    grid-template-areas:
+        "h1"
+        "ul";
+}
+
+    .grid-descarga ul{
+        grid-area: ul;
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+    }
+
+    .grid-descarga li{
+        display: grid;
+        height: 100vh;
+        width: 50vw;
+        grid-template-columns: 35vw;
+        grid-template-rows: 20vh auto 10vh;
+        grid-template-areas: 
+        "h2"
+        "contenido"
+        "final";
+    }
+
+    .grid-descarga h2{
+        grid-area: h2;
+        font-size: 3vw;
+        padding: 2vw;
+        margin: 2vw;
+        border: #5151cf 1vw solid;
+    }
+
+    .grid-descarga img{
+        grid-area: contenido;
+        width: 30vw;
+        height: auto;
+        padding: 2vw;
+        margin: 2vw;
+        border: #5151cf 1vw solid;
+    }
+
+    .grid-descarga a{
+        grid-area: final;
+        font-size: 2vw;
+        padding: 2vw;
+        margin: 2vw;
+        border: #5151cf 1vw solid;
+    }
+
+    .form p{
+        grid-area: contenido;
+        font-size: 2vw;
+        padding: 2vw;
+        margin: 2vw;
+        border: #5151cf 1vw solid;
+    }
+
+    .form form{
+        grid-area: final;
         padding: 2vw;
         margin: 2vw;
         border: #5151cf 1vw solid;
