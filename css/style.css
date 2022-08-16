@@ -93,6 +93,26 @@
     align-items: center;
 }
 
+.lista-critica li{
+    width: 85vw;
+    padding: 2vw;
+    margin: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #5151cf 1.5vw solid;
+}
+
+.lista-critica img{
+    width: 40vw;
+}
+
+.main a{
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    border: #4a4ab8 5px solid;  
+}
+
 .main p{
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;
@@ -108,8 +128,8 @@
 }
 
 #video-index{
-    width: 95vw;
-    height: 55vh;
+    width: 80vw;
+    height: auto;
 }
 
 .footer{    
