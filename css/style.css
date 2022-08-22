@@ -6,7 +6,7 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 100vw;
+    grid-template-columns: 98.5vw;
     overflow: auto;
     grid-template-rows: 30vh 10vh auto 30vh;
     grid-template-areas:
@@ -42,6 +42,12 @@
 .nav li {
     font-size: 5vw;
     padding: 1vw;
+    border: #c7befd .5vw solid;
+}
+
+.nav li:hover{
+    background-image: linear-gradient(to bottom, #c7befd, #626286);
+    transform: scale(1.5);
 }
 
 .header img {
@@ -180,6 +186,8 @@
 
     .grid-container {
         grid-template-rows: 50vh 10vh auto 60vh;
+        width: 98.5%vw;
+        grid-template-columns: 98.5%vw;
     }
 
     .nav{
@@ -192,7 +200,7 @@
 
     .grid-index {
         display: grid;
-        grid-template-columns: 48vw 50vw;
+        grid-template-columns: 48.25vw 50.25vw;
         grid-template-rows: 20vh 60vh 60vh;
         grid-template-areas:
             "h1 h1"
@@ -222,7 +230,7 @@
 
     .grid-personajes-y-ciudades {
         display: grid;
-        grid-template-columns: 99vw;
+        grid-template-columns: 98.5vw;
         grid-row: 20vh 100vh;
         grid-template-areas:
             "h1"
@@ -309,7 +317,7 @@
 
     .grid-critica {
         display: grid;
-        grid-template-columns: 99vw;
+        grid-template-columns: 98.5vw;
         grid-row: 20vh 100vh;
         grid-template-areas:
             "h1"
@@ -362,7 +370,7 @@
 
    .grid-descarga{
     display: grid;
-    grid-template-columns: 99vw;
+    grid-template-columns: 98.5vw;
     grid-row: 20vh 100vh;
     grid-template-areas:
         "h1"
