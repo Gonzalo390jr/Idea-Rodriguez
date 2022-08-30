@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: 98.5vw;
     overflow: auto;
-    grid-template-rows: 30vh 10vh auto 30vh;
+    grid-template-rows: 30vh 25vh auto 30vh;
     grid-template-areas:
         "header"
         "nav"
@@ -29,7 +30,7 @@
 
 .nav {
     list-style: none;
-    font-size: 7vh;
+    font-size: 3vw;
     background-image: linear-gradient(to bottom, white, #8C8C90);
     display: flex;
     flex-direction: row;
@@ -41,7 +42,6 @@
 
 .nav li {
     font-size: 5vw;
-    padding: 1vw;
     border: #c7befd .5vw solid;
 }
 
@@ -185,17 +185,18 @@
 @media (min-width: 768px) {
 
     .grid-container {
-        grid-template-rows: 50vh 10vh auto 60vh;
+        grid-template-rows: 50vh 15vh auto 60vh;
         width: 98.5%vw;
         grid-template-columns: 98.5%vw;
     }
 
     .nav{
-        font-size: 4vw;
+        font-size: 3vw;
     }
 
     .nav li{
         font-size: 2vw;
+        padding: .5vw;
     }
 
     .grid-index {
@@ -231,7 +232,7 @@
     .grid-personajes-y-ciudades {
         display: grid;
         grid-template-columns: 98.5vw;
-        grid-row: 20vh 60vh 60vh;
+        grid-row: 20vh 100vh;
         grid-template-areas:
             "h1"
             "ul";
