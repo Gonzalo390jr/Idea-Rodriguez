@@ -231,7 +231,7 @@
     .grid-personajes-y-ciudades {
         display: grid;
         grid-template-columns: 98.5vw;
-        grid-row: 20vh 100vh;
+        grid-row: 20vh 60vh 60vh;
         grid-template-areas:
             "h1"
             "ul";
