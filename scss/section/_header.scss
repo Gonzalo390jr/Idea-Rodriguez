@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    background-size: cover;
+    background-image: url('../img/header2.0.jpg');
+    background-position: bottom;
+    grid-area: header;
+    flex-direction: column;
+    justify-content: space-between;
+    img{
+        width: 150px;
+        height: 50px;
+    }
+}

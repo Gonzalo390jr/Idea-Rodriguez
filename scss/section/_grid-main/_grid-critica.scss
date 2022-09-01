@@ -1,0 +1,48 @@
+@media (min-width: 768px) {
+  .grid-critica {
+    display: grid;
+    grid-template-columns: 98.5vw;
+    grid-row: 20vh 100vh;
+    grid-template-areas:
+      "h1"
+      "ul";
+    ul {
+      grid-area: ul;
+      overflow: auto;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    li .lista-critica{
+        display: flex;
+        flex-direction: column;
+        width: 65vw;
+        height: 65vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+        .nota{
+            width: auto;
+            height: 30vh;
+            padding: 2vw;
+            margin: 2vw;
+            border: #5151cf 1vw solid;
+        }
+        .portada{
+            width: 25vw;
+            height: auto;
+            padding: 2vw;
+            margin: 2vw;
+            border: #5151cf 1vw solid;
+        }
+        .enlace{
+            font-size: 2vw;
+            padding: 2vw;
+            margin: 2vw;
+            border: #5151cf 1vw solid;
+       }
+       p{
+        font-size: 2vw;
+       }
+    }
+  }
+}

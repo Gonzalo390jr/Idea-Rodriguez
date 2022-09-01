@@ -1,0 +1,32 @@
+.grid-index iframe {
+  width: 80vw;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .grid-index {
+    display: grid;
+    grid-template-columns: 48.25vw 50.25vw;
+    grid-template-rows: 20vh 60vh 60vh;
+    grid-template-areas:
+      "h1 h1"
+      "img p"
+      "img iframe";
+    h1 {
+      grid-area: h1;
+    }
+    img {
+        grid-area: img;
+        width: 45vw;
+        height: auto;
+    }
+    p {
+        grid-area: p;
+    }
+    iframe {
+        grid-area: iframe;
+        width: 38vw;
+        height: 50vh;
+    }
+  }
+}

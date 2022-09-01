@@ -1,0 +1,18 @@
+// Prettier y Error Lens
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import './section/grid-container';
+@import './section/header';
+@import './section/nav';
+@import './section/main';
+@import './section/footer';
+
+@import './section/_grid-main/grid-index';
+@import './section/_grid-main/grid-personajes-y-ciudades';
+@import './section/_grid-main/grid-critica';
+@import './section/_grid-main/grid-descarga';
+@import './section/_grid-main/inicio-h1';

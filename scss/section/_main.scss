@@ -1,0 +1,74 @@
+.main {
+    background-color: #8C8C90;
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    img {
+        width: 70vw;
+        height: auto;
+        padding: 10px 10px 10px 10px;
+        margin: 10px 10px 10px 10px;
+        border: #4a4ab8 5px solid;
+    }
+    h1 {
+        text-align: center;
+        padding: 20px 20px 20px 20px;
+        margin: 20px 20px 20px 20px;
+        border: #4a4ab8 5px solid;
+    }
+    h2 {
+        padding: 15px 15px 15px 15px;
+        margin: 15px 15px 15px 15px;
+        text-align: -webkit-left;
+        border: #4a4ab8 2px solid;
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    li {
+        width: 95vw;
+        padding: 3vw;
+        margin: 2vw;
+        border: #0d0db8 2vw solid;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    a {
+        font-size: 5vw;
+        padding: 10px 10px 10px 10px;
+        margin: 10px 10px 10px 10px;
+        border: #4a4ab8 5px solid;
+    }
+    p {
+        padding: 10px 10px 10px 10px;
+        margin: 10px 10px 10px 10px;
+        border: #4a4ab8 5px solid;
+    }
+    iframe {
+        width: 40vw;
+        height: auto;
+        padding: 10px 10px 10px 10px;
+        margin: 10px 10px 10px 10px;
+        border: #4a4ab8 5px solid;
+    }
+}
+
+.lista-critica{
+    li {
+        width: 85vw;
+        padding: 2vw;
+        margin: 1vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: #5151cf 1.5vw solid;
+    }
+    img {
+        width: 40vw;
+    }
+}

@@ -1,0 +1,32 @@
+.nav {
+  list-style: none;
+  font-size: 3vw;
+  background-image: linear-gradient(to bottom, white, #8c8c90);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
+  grid-area: nav;
+  li {
+    font-size: 5vw;
+    border: #c7befd 0.5vw solid;
+    :hover {
+      background-image: linear-gradient(to bottom, #c7befd, #626286);
+      transform: scale(1.5);
+    }
+  }
+  a {
+    color: rgb(13, 41, 95);
+  }
+}
+
+@media (min-width: 768px) {
+  .nav {
+    font-size: 3vw;
+    li {
+      font-size: 2vw;
+      padding: 0.5vw;
+    }
+  }
+}

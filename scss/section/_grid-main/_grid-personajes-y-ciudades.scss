@@ -1,0 +1,65 @@
+@media (min-width: 768px) {
+  .grid-personajes-y-ciudades {
+    display: grid;
+    grid-template-columns: 98.5vw;
+    grid-row: 20vh 100vh;
+    grid-template-areas:
+      "h1"
+      "ul";
+    ul {
+      grid-area: ul;
+      overflow-x: auto;
+      display: flex;
+      flex-direction: row;
+    }
+    li {
+      width: 90vw;
+      height: 95vh;
+      display: grid;
+      grid-template-columns: 35vw 45vw;
+      grid-template-rows: 15vh 32vh 35vh;
+      grid-template-areas:
+        "h2 h2 h2"
+        "img p p"
+        "img iframe iframe";
+    }
+    img {
+      grid-area: img;
+      width: auto;
+      height: 60vh;
+      padding: 2vw;
+      margin: 2vw;
+      border: #5151cf 1vw solid;
+    }
+    .foto-gorda {
+      width: 30vw;
+      height: auto;
+      padding: 2vw;
+      margin: 2vw;
+      border: #5151cf 1vw solid;
+    }
+    h2 {
+      grid-area: h2;
+      padding: 2vw;
+      margin: 2vw;
+      border: #5151cf 1vw solid;
+    }
+    p {
+      grid-area: p;
+      width: 42vw;
+      height: 28vh;
+      overflow: auto;
+      padding: 2vw;
+      margin: 2vw;
+      border: #5151cf 1vw solid;
+    }
+    iframe {
+      grid-area: iframe;
+      width: 40vw;
+      height: 30vh;
+      padding: 2vw;
+      margin: 2vw;
+      border: #5151cf 1vw solid;
+    }
+  }
+}

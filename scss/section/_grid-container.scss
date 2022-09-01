@@ -1,0 +1,19 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 98.5vw;
+    overflow: auto;
+    grid-template-rows: 30vh 25vh auto 30vh;
+    grid-template-areas:
+        "header"
+        "nav"
+        "main"
+        "footer";
+}
+
+@media (min-width: 768px){
+    .grid-container {
+        grid-template-rows: 50vh 15vh auto 60vh;
+        width: 98.5%vw;
+        grid-template-columns: 98.5%vw;
+    }
+}
