@@ -27,39 +27,29 @@
       grid-area: img;
       width: auto;
       height: 60vh;
-      padding: 2vw;
-      margin: 2vw;
-      border: #5151cf 1vw solid;
+      @include recuadro(2vw, 2vw, 1vw);
     }
     .foto-gorda {
       width: 30vw;
       height: auto;
-      padding: 2vw;
-      margin: 2vw;
-      border: #5151cf 1vw solid;
+      @include recuadro(2vw, 2vw, 1vw);
     }
     h2 {
       grid-area: h2;
-      padding: 2vw;
-      margin: 2vw;
-      border: #5151cf 1vw solid;
+      @include recuadro(2vw, 2vw, 1vw);
     }
     p {
       grid-area: p;
       width: 42vw;
       height: 28vh;
       overflow: auto;
-      padding: 2vw;
-      margin: 2vw;
-      border: #5151cf 1vw solid;
+      @include recuadro(2vw, 2vw, 1vw);
     }
     iframe {
       grid-area: iframe;
       width: 40vw;
       height: 30vh;
-      padding: 2vw;
-      margin: 2vw;
-      border: #5151cf 1vw solid;
+      @include recuadro(2vw, 2vw, 1vw);
     }
   }
 }

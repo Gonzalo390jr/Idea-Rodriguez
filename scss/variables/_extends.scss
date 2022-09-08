@@ -1,0 +1,15 @@
+@mixin imagen-fondo($imagen, $g-area) {
+    background-size: cover;
+    background-image: url($imagen);
+    background-position: bottom;
+    grid-area: $g-area;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@mixin recuadro($margen, $paden, $ancho-linea) {
+    margin: $margen;
+    padding: $paden;
+    border: #4a4ab8 $ancho-linea, solid;
+}

@@ -11,9 +11,7 @@
             width: 50vw;
             height: 25vh;
             overflow: auto;
-            padding: 2vw;
-            margin: 2vw;
-            border: #4a4ab8 1vw solid;
+            @include recuadro(2vw, 2vw, 1vw);
         }
     }
 }

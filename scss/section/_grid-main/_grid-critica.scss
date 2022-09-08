@@ -23,22 +23,16 @@
         .nota{
             width: auto;
             height: 30vh;
-            padding: 2vw;
-            margin: 2vw;
-            border: #5151cf 1vw solid;
+            @include recuadro(2vw, 2vw, 1vw);
         }
         .portada{
             width: 25vw;
             height: auto;
-            padding: 2vw;
-            margin: 2vw;
-            border: #5151cf 1vw solid;
+            @include recuadro(2vw, 2vw, 1vw);
         }
         .enlace{
             font-size: 2vw;
-            padding: 2vw;
-            margin: 2vw;
-            border: #5151cf 1vw solid;
+            @include recuadro(2vw, 2vw, 1vw);
        }
        p{
         font-size: 2vw;

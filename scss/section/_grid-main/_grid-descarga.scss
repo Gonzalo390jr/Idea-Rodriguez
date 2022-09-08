@@ -26,38 +26,28 @@
     h2{
         grid-area: h2;
         font-size: 3vw;
-        padding: 2vw;
-        margin: 2vw;
-        border: #5151cf 1vw solid;
+        @include recuadro(2vw, 2vw, 1vw);
     }
     img{
         grid-area: contenido;
         width: 30vw;
         height: auto;
-        padding: 2vw;
-        margin: 2vw;
-        border: #5151cf 1vw solid;
+        @include recuadro(2vw, 2vw, 1vw);
     }
     a{
         grid-area: final;
         font-size: 2vw;
-        padding: 2vw;
-        margin: 2vw;
-        border: #5151cf 1vw solid;
+        @include recuadro(2vw, 2vw, 1vw);
     }
     .form{
         p{
             grid-area: contenido;
             font-size: 2vw;
-            padding: 2vw;
-            margin: 2vw;
-            border: #5151cf 1vw solid;
+            @include recuadro(2vw, 2vw, 1vw);
         }
         form{
             grid-area: final;
-            padding: 2vw;
-            margin: 2vw;
-            border: #5151cf 1vw solid;
+            @include recuadro(2vw, 2vw, 1vw);
         }
     }
   }

@@ -17,16 +17,19 @@
     grid-template-columns: 98.5%vw; } }
 
 .header {
-  display: flex;
   background-size: cover;
   background-image: url("../img/header2.0.jpg");
   background-position: bottom;
   grid-area: header;
+  display: flex;
   flex-direction: column;
   justify-content: space-between; }
   .header img {
     width: 150px;
     height: 50px; }
+
+.nav-container {
+  grid-area: nav; }
 
 .nav {
   list-style: none;
@@ -36,8 +39,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-content: space-around;
-  flex-wrap: wrap;
-  grid-area: nav; }
+  flex-wrap: wrap; }
   .nav li {
     font-size: 5vw;
     border: #c7befd 0.5vw solid; }
@@ -64,55 +66,55 @@
   .main img {
     width: 70vw;
     height: auto;
-    padding: 10px 10px 10px 10px;
-    margin: 10px 10px 10px 10px;
-    border: #4a4ab8 5px solid; }
+    margin: 10px;
+    padding: 10px;
+    border: #4a4ab8 5px, solid; }
   .main h1 {
     text-align: center;
-    padding: 20px 20px 20px 20px;
-    margin: 20px 20px 20px 20px;
-    border: #4a4ab8 5px solid; }
+    margin: 20px;
+    padding: 20px;
+    border: #4a4ab8 5px, solid; }
   .main h2 {
-    padding: 15px 15px 15px 15px;
-    margin: 15px 15px 15px 15px;
     text-align: -webkit-left;
-    border: #4a4ab8 2px solid; }
+    margin: 15px;
+    padding: 15px;
+    border: #4a4ab8 2px, solid; }
   .main ul {
     list-style: none;
     display: flex;
     flex-direction: column; }
   .main li {
     width: 95vw;
-    padding: 3vw;
     margin: 2vw;
-    border: #0d0db8 2vw solid;
+    padding: 3vw;
+    border: #4a4ab8 2vw, solid;
     display: flex;
     flex-direction: column;
     align-items: center; }
   .main a {
     font-size: 5vw;
-    padding: 10px 10px 10px 10px;
-    margin: 10px 10px 10px 10px;
-    border: #4a4ab8 5px solid; }
+    margin: 10px;
+    padding: 10px;
+    border: #4a4ab8 5px, solid; }
   .main p {
-    padding: 10px 10px 10px 10px;
-    margin: 10px 10px 10px 10px;
-    border: #4a4ab8 5px solid; }
+    margin: 10px;
+    padding: 10px;
+    border: #4a4ab8 5px, solid; }
   .main iframe {
     width: 40vw;
     height: auto;
-    padding: 10px 10px 10px 10px;
-    margin: 10px 10px 10px 10px;
-    border: #4a4ab8 5px solid; }
+    margin: 10px;
+    padding: 10px;
+    border: #4a4ab8 5px, solid; }
 
 .lista-critica li {
   width: 85vw;
-  padding: 2vw;
-  margin: 1vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: #5151cf 1.5vw solid; }
+  margin: 1vw;
+  padding: 2vw;
+  border: #4a4ab8 11.5vw, solid; }
 
 .lista-critica img {
   width: 40vw; }
@@ -187,35 +189,35 @@
       grid-area: img;
       width: auto;
       height: 60vh;
-      padding: 2vw;
       margin: 2vw;
-      border: #5151cf 1vw solid; }
+      padding: 2vw;
+      border: #4a4ab8 1vw, solid; }
     .grid-personajes-y-ciudades .foto-gorda {
       width: 30vw;
       height: auto;
-      padding: 2vw;
       margin: 2vw;
-      border: #5151cf 1vw solid; }
+      padding: 2vw;
+      border: #4a4ab8 1vw, solid; }
     .grid-personajes-y-ciudades h2 {
       grid-area: h2;
-      padding: 2vw;
       margin: 2vw;
-      border: #5151cf 1vw solid; }
+      padding: 2vw;
+      border: #4a4ab8 1vw, solid; }
     .grid-personajes-y-ciudades p {
       grid-area: p;
       width: 42vw;
       height: 28vh;
       overflow: auto;
-      padding: 2vw;
       margin: 2vw;
-      border: #5151cf 1vw solid; }
+      padding: 2vw;
+      border: #4a4ab8 1vw, solid; }
     .grid-personajes-y-ciudades iframe {
       grid-area: iframe;
       width: 40vw;
       height: 30vh;
-      padding: 2vw;
       margin: 2vw;
-      border: #5151cf 1vw solid; } }
+      padding: 2vw;
+      border: #4a4ab8 1vw, solid; } }
 
 @media (min-width: 768px) {
   .grid-critica {
@@ -239,20 +241,20 @@
       .grid-critica li .lista-critica .nota {
         width: auto;
         height: 30vh;
-        padding: 2vw;
         margin: 2vw;
-        border: #5151cf 1vw solid; }
+        padding: 2vw;
+        border: #4a4ab8 1vw, solid; }
       .grid-critica li .lista-critica .portada {
         width: 25vw;
         height: auto;
-        padding: 2vw;
         margin: 2vw;
-        border: #5151cf 1vw solid; }
+        padding: 2vw;
+        border: #4a4ab8 1vw, solid; }
       .grid-critica li .lista-critica .enlace {
         font-size: 2vw;
-        padding: 2vw;
         margin: 2vw;
-        border: #5151cf 1vw solid; }
+        padding: 2vw;
+        border: #4a4ab8 1vw, solid; }
       .grid-critica li .lista-critica p {
         font-size: 2vw; } }
 
@@ -277,33 +279,33 @@
     .grid-descarga h2 {
       grid-area: h2;
       font-size: 3vw;
-      padding: 2vw;
       margin: 2vw;
-      border: #5151cf 1vw solid; }
+      padding: 2vw;
+      border: #4a4ab8 1vw, solid; }
     .grid-descarga img {
       grid-area: contenido;
       width: 30vw;
       height: auto;
-      padding: 2vw;
       margin: 2vw;
-      border: #5151cf 1vw solid; }
+      padding: 2vw;
+      border: #4a4ab8 1vw, solid; }
     .grid-descarga a {
       grid-area: final;
       font-size: 2vw;
-      padding: 2vw;
       margin: 2vw;
-      border: #5151cf 1vw solid; }
+      padding: 2vw;
+      border: #4a4ab8 1vw, solid; }
     .grid-descarga .form p {
       grid-area: contenido;
       font-size: 2vw;
-      padding: 2vw;
       margin: 2vw;
-      border: #5151cf 1vw solid; }
+      padding: 2vw;
+      border: #4a4ab8 1vw, solid; }
     .grid-descarga .form form {
       grid-area: final;
-      padding: 2vw;
       margin: 2vw;
-      border: #5151cf 1vw solid; } }
+      padding: 2vw;
+      border: #4a4ab8 1vw, solid; } }
 
 @media (min-width: 768px) {
   .inicio-h1 {
@@ -317,6 +319,6 @@
       width: 50vw;
       height: 25vh;
       overflow: auto;
-      padding: 2vw;
       margin: 2vw;
-      border: #4a4ab8 1vw solid; } }
+      padding: 2vw;
+      border: #4a4ab8 1vw, solid; } }

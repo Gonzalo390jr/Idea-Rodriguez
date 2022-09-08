@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+@import './variables/extends';
+
 @import './section/grid-container';
 @import './section/header';
 @import './section/nav';

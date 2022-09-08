@@ -1,11 +1,5 @@
 .footer {
-    background-size: cover;
-    background-image: url('../img/imagen-inicio-2.jpg');
-    background-position: bottom;
-    grid-area: footer;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    @include imagen-fondo('../img/imagen-inicio-2.jpg', footer);
     align-items: center;
     ul {
         list-style: none;
