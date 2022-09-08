@@ -23,16 +23,16 @@
         .nota{
             width: auto;
             height: 30vh;
-            @include recuadro(2vw, 2vw, 1vw);
+            @include recuadro(2vw, 2vw);
         }
         .portada{
             width: 25vw;
             height: auto;
-            @include recuadro(2vw, 2vw, 1vw);
+            @include recuadro(2vw, 2vw);
         }
         .enlace{
             font-size: 2vw;
-            @include recuadro(2vw, 2vw, 1vw);
+            @include recuadro(2vw, 2vw);
        }
        p{
         font-size: 2vw;

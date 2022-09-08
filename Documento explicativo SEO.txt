@@ -1,0 +1,36 @@
+﻿En el archivo index.html sumé el SEO con las siguientes características:
+* Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Página de fans del videojuego Final Fantasy IX, donde lo damos a conocer y razones para jugarlo"
+* Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "FINAL FANTASY IX, FFIX, VIDEOJUEGOS, ROL, FANPAGE"
+* Encabezado: para el encabezado del h1 utilicé el texto “Final Fantasy IX Fan-Site”
+
+
+
+
+En el archivo personajes.html sumé el SEO con las siguientes características:
+* Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Presentación de los personajes principales de Final Fantasy IX"
+* Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "FINAL FANTASY IX, FFIX, VIDEOJUEGOS, ROL, FANPAGE", además, agregue las palabras clave exclusivas de esta página: “PERSONAJES, PROTAGONISTA, YITAN, GARNET, VIVI”
+* Encabezado: para el encabezado del h1 utilicé el texto “Personajes principales”
+
+
+
+
+En el archivo descarga.html sumé el SEO con las siguientes características:
+* Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Enlaces tanto oficiales como no tanto para jugar Final Fantasy IX"
+* Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "FINAL FANTASY IX, FFIX, VIDEOJUEGOS, ROL, FANPAGE", además, agregue las palabras clave exclusivas de esta página: “DESCARGAR, JUGAR, ENLACE, STEAM, GOOGLE PLAY”
+* Encabezado: para el encabezado del h1 utilicé el texto “Opciones para poder jugarlo”
+
+
+
+
+En el archivo critica.html sumé el SEO con las siguientes características:
+* Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Recopilación de notas y críticas de distintos medios a Final Fantasy IX"
+* Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "FINAL FANTASY IX, FFIX, VIDEOJUEGOS, ROL, FANPAGE", además, agregue las palabras clave exclusivas de esta página: “CRÍTICA, NOTA, OPINIONES, VANDAL, TIERRAGAMER, IGN, LEVEL UP”
+* Encabezado: para el encabezado del h1 utilicé el texto “Crítica”
+
+
+
+
+En el archivo index.html sumé el SEO con las siguientes características:
+* Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Información de las ciudades más importantes del mundo de Final Fantasy IX"
+* Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "FINAL FANTASY IX, FFIX, VIDEOJUEGOS, ROL, FANPAGE", además, agregue las palabras clave exclusivas de esta página: “CIUDADES, MUNDO”
+* Encabezado: para el encabezado del h1 utilicé el texto “Ciudades principales”

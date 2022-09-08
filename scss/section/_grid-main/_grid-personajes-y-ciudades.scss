@@ -27,29 +27,29 @@
       grid-area: img;
       width: auto;
       height: 60vh;
-      @include recuadro(2vw, 2vw, 1vw);
+      @include recuadro(2vw, 2vw);
     }
     .foto-gorda {
       width: 30vw;
       height: auto;
-      @include recuadro(2vw, 2vw, 1vw);
+      @include recuadro(2vw, 2vw);
     }
     h2 {
       grid-area: h2;
-      @include recuadro(2vw, 2vw, 1vw);
+      @include recuadro(2vw, 2vw);
     }
     p {
       grid-area: p;
       width: 42vw;
       height: 28vh;
       overflow: auto;
-      @include recuadro(2vw, 2vw, 1vw);
+      @include recuadro(2vw, 2vw);
     }
     iframe {
       grid-area: iframe;
       width: 40vw;
       height: 30vh;
-      @include recuadro(2vw, 2vw, 1vw);
+      @include recuadro(2vw, 2vw);
     }
   }
 }

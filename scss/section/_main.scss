@@ -8,15 +8,15 @@
     img {
         width: 70vw;
         height: auto;
-        @include recuadro(10px, 10px, 5px);
+        @include recuadro(10px, 10px);
     }
     h1 {
         text-align: center;
-        @include recuadro(20px, 20px, 5px);
+        @include recuadro(20px, 20px);
     }
     h2 {
         text-align: -webkit-left;
-        @include recuadro(15px, 15px, 2px);
+        @include recuadro(15px, 15px);
     }
     ul {
         list-style: none;
@@ -25,22 +25,22 @@
     }
     li {
         width: 95vw;
-        @include recuadro(2vw, 3vw, 2vw);
+        @include recuadro(2vw, 3vw);
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     a {
         font-size: 5vw;
-        @include recuadro(10px, 10px, 5px);
+        @include recuadro(10px, 10px);
     }
     p {
-        @include recuadro(10px, 10px, 5px);
+        @include recuadro(10px, 10px);
     }
     iframe {
         width: 40vw;
         height: auto;
-        @include recuadro(10px, 10px, 5px);
+        @include recuadro(10px, 10px);
     }
 }
 
@@ -50,7 +50,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        @include recuadro(1vw, 2vw, 11.5vw);
+        @include recuadro(1vw, 2vw);
     }
     img {
         width: 40vw;

@@ -28,10 +28,8 @@
     width: 150px;
     height: 50px; }
 
-.nav-container {
-  grid-area: nav; }
-
 .nav {
+  grid-area: nav;
   list-style: none;
   font-size: 3vw;
   background-image: linear-gradient(to bottom, white, #8c8c90);
@@ -68,17 +66,17 @@
     height: auto;
     margin: 10px;
     padding: 10px;
-    border: #4a4ab8 5px, solid; }
+    border: #4a4ab8 .5vw solid; }
   .main h1 {
     text-align: center;
     margin: 20px;
     padding: 20px;
-    border: #4a4ab8 5px, solid; }
+    border: #4a4ab8 .5vw solid; }
   .main h2 {
     text-align: -webkit-left;
     margin: 15px;
     padding: 15px;
-    border: #4a4ab8 2px, solid; }
+    border: #4a4ab8 .5vw solid; }
   .main ul {
     list-style: none;
     display: flex;
@@ -87,7 +85,7 @@
     width: 95vw;
     margin: 2vw;
     padding: 3vw;
-    border: #4a4ab8 2vw, solid;
+    border: #4a4ab8 .5vw solid;
     display: flex;
     flex-direction: column;
     align-items: center; }
@@ -95,17 +93,17 @@
     font-size: 5vw;
     margin: 10px;
     padding: 10px;
-    border: #4a4ab8 5px, solid; }
+    border: #4a4ab8 .5vw solid; }
   .main p {
     margin: 10px;
     padding: 10px;
-    border: #4a4ab8 5px, solid; }
+    border: #4a4ab8 .5vw solid; }
   .main iframe {
     width: 40vw;
     height: auto;
     margin: 10px;
     padding: 10px;
-    border: #4a4ab8 5px, solid; }
+    border: #4a4ab8 .5vw solid; }
 
 .lista-critica li {
   width: 85vw;
@@ -114,7 +112,7 @@
   align-items: center;
   margin: 1vw;
   padding: 2vw;
-  border: #4a4ab8 11.5vw, solid; }
+  border: #4a4ab8 .5vw solid; }
 
 .lista-critica img {
   width: 40vw; }
@@ -191,18 +189,18 @@
       height: 60vh;
       margin: 2vw;
       padding: 2vw;
-      border: #4a4ab8 1vw, solid; }
+      border: #4a4ab8 .5vw solid; }
     .grid-personajes-y-ciudades .foto-gorda {
       width: 30vw;
       height: auto;
       margin: 2vw;
       padding: 2vw;
-      border: #4a4ab8 1vw, solid; }
+      border: #4a4ab8 .5vw solid; }
     .grid-personajes-y-ciudades h2 {
       grid-area: h2;
       margin: 2vw;
       padding: 2vw;
-      border: #4a4ab8 1vw, solid; }
+      border: #4a4ab8 .5vw solid; }
     .grid-personajes-y-ciudades p {
       grid-area: p;
       width: 42vw;
@@ -210,14 +208,14 @@
       overflow: auto;
       margin: 2vw;
       padding: 2vw;
-      border: #4a4ab8 1vw, solid; }
+      border: #4a4ab8 .5vw solid; }
     .grid-personajes-y-ciudades iframe {
       grid-area: iframe;
       width: 40vw;
       height: 30vh;
       margin: 2vw;
       padding: 2vw;
-      border: #4a4ab8 1vw, solid; } }
+      border: #4a4ab8 .5vw solid; } }
 
 @media (min-width: 768px) {
   .grid-critica {
@@ -243,18 +241,18 @@
         height: 30vh;
         margin: 2vw;
         padding: 2vw;
-        border: #4a4ab8 1vw, solid; }
+        border: #4a4ab8 .5vw solid; }
       .grid-critica li .lista-critica .portada {
         width: 25vw;
         height: auto;
         margin: 2vw;
         padding: 2vw;
-        border: #4a4ab8 1vw, solid; }
+        border: #4a4ab8 .5vw solid; }
       .grid-critica li .lista-critica .enlace {
         font-size: 2vw;
         margin: 2vw;
         padding: 2vw;
-        border: #4a4ab8 1vw, solid; }
+        border: #4a4ab8 .5vw solid; }
       .grid-critica li .lista-critica p {
         font-size: 2vw; } }
 
@@ -281,31 +279,31 @@
       font-size: 3vw;
       margin: 2vw;
       padding: 2vw;
-      border: #4a4ab8 1vw, solid; }
+      border: #4a4ab8 .5vw solid; }
     .grid-descarga img {
       grid-area: contenido;
       width: 30vw;
       height: auto;
       margin: 2vw;
       padding: 2vw;
-      border: #4a4ab8 1vw, solid; }
+      border: #4a4ab8 .5vw solid; }
     .grid-descarga a {
       grid-area: final;
       font-size: 2vw;
       margin: 2vw;
       padding: 2vw;
-      border: #4a4ab8 1vw, solid; }
+      border: #4a4ab8 .5vw solid; }
     .grid-descarga .form p {
       grid-area: contenido;
       font-size: 2vw;
       margin: 2vw;
       padding: 2vw;
-      border: #4a4ab8 1vw, solid; }
+      border: #4a4ab8 .5vw solid; }
     .grid-descarga .form form {
       grid-area: final;
       margin: 2vw;
       padding: 2vw;
-      border: #4a4ab8 1vw, solid; } }
+      border: #4a4ab8 .5vw solid; } }
 
 @media (min-width: 768px) {
   .inicio-h1 {
@@ -321,4 +319,4 @@
       overflow: auto;
       margin: 2vw;
       padding: 2vw;
-      border: #4a4ab8 1vw, solid; } }
+      border: #4a4ab8 .5vw solid; } }

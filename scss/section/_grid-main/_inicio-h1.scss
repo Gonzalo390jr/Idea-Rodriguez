@@ -11,7 +11,7 @@
             width: 50vw;
             height: 25vh;
             overflow: auto;
-            @include recuadro(2vw, 2vw, 1vw);
+            @include recuadro(2vw, 2vw);
         }
     }
 }

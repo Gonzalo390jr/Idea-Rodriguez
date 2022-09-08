@@ -8,8 +8,8 @@
     justify-content: space-between;
 }
 
-@mixin recuadro($margen, $paden, $ancho-linea) {
+@mixin recuadro($margen, $paden) {
     margin: $margen;
     padding: $paden;
-    border: #4a4ab8 $ancho-linea, solid;
+    border: #4a4ab8 .5vw solid;
 }

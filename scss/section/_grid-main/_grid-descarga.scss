@@ -26,28 +26,28 @@
     h2{
         grid-area: h2;
         font-size: 3vw;
-        @include recuadro(2vw, 2vw, 1vw);
+        @include recuadro(2vw, 2vw);
     }
     img{
         grid-area: contenido;
         width: 30vw;
         height: auto;
-        @include recuadro(2vw, 2vw, 1vw);
+        @include recuadro(2vw, 2vw);
     }
     a{
         grid-area: final;
         font-size: 2vw;
-        @include recuadro(2vw, 2vw, 1vw);
+        @include recuadro(2vw, 2vw);
     }
     .form{
         p{
             grid-area: contenido;
             font-size: 2vw;
-            @include recuadro(2vw, 2vw, 1vw);
+            @include recuadro(2vw, 2vw);
         }
         form{
             grid-area: final;
-            @include recuadro(2vw, 2vw, 1vw);
+            @include recuadro(2vw, 2vw);
         }
     }
   }
