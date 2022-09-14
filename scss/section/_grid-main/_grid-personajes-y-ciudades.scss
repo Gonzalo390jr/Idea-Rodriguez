@@ -1,3 +1,5 @@
+/*Transforma, para la versión de escritorio, las listas de las páginas personajes.html y ciudades.html
+en un carrusel de cards para facilitar la lectura y aprovechar la horizontalidad de la pantalla*/
 @media (min-width: 768px) {
   .grid-personajes-y-ciudades {
     display: grid;

@@ -1,3 +1,4 @@
+/*Agrega la imagen de fondo al encabezodo de la página*/
 .header {
     @include imagen-fondo('../img/header2.0.jpg', header);
     img{

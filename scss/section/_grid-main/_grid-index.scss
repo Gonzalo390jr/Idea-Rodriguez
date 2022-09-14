@@ -3,6 +3,7 @@
   height: auto;
 }
 
+/*Adapta mediante grid la estructura del contenido principal de index.html*/
 @media (min-width: 768px) {
   .grid-index {
     display: grid;

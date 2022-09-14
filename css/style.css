@@ -1,21 +1,27 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
+/*Funcion para agregar una imagen de fondo*/
+/*Funcion para agregar padding y margin a eleccion y un recuadro al elemento*/
+/*el display grid para la pagina, en mobile-first*/
 .grid-container {
   display: grid;
   grid-template-columns: 98.5vw;
   overflow: auto;
-  grid-template-rows: 30vh 25vh auto 30vh;
+  grid-template-rows: 30vh 30vh auto 40vh;
   grid-template-areas: "header" "nav" "main" "footer"; }
 
+/*media-queri para la vercion de escritorio*/
 @media (min-width: 768px) {
   .grid-container {
     grid-template-rows: 50vh 15vh auto 60vh;
     width: 98.5%vw;
     grid-template-columns: 98.5%vw; } }
 
+/*Agrega la imagen de fondo al encabezodo de la página*/
 .header {
   background-size: cover;
   background-image: url("../img/header2.0.jpg");
@@ -28,32 +34,36 @@
     width: 150px;
     height: 50px; }
 
+/*Agrega estilos a la barra de navegacion*/
 .nav {
   grid-area: nav;
-  list-style: none;
-  font-size: 3vw;
-  background-image: linear-gradient(to bottom, white, #8c8c90);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-content: space-around;
-  flex-wrap: wrap; }
-  .nav li {
-    font-size: 5vw;
-    border: #c7befd 0.5vw solid; }
-    .nav li :hover {
-      background-image: linear-gradient(to bottom, #c7befd, #626286);
-      transform: scale(1.5); }
-  .nav a {
-    color: #0d295f; }
+  background-image: linear-gradient(to bottom, white, #8c8c90); }
+  .nav ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: flex-end;
+    flex-wrap: wrap; }
+    .nav ul li {
+      font-size: 3vw;
+      border: #c7befd 0.5vw solid;
+      background-image: linear-gradient(to bottom, white, #8c8c90); }
+      .nav ul li :hover {
+        transform: scale(1.5);
+        background-image: linear-gradient(to bottom, white, #8c8c90); }
+    .nav ul a {
+      color: #0d295f; }
 
 @media (min-width: 768px) {
-  .nav {
-    font-size: 3vw; }
-    .nav li {
-      font-size: 2vw;
-      padding: 0.5vw; } }
+  .nav ul {
+    font-size: 5vw;
+    flex-direction: row; }
+  .nav li {
+    padding: 0.5vw; } }
 
+/*Los estilos del contenido principal de la pagina
+Esta pensado para ser una wikia, es decir que la informacion en mobiles se lea en cascada*/
 .main {
   background-color: #8C8C90;
   grid-area: main;
@@ -80,11 +90,13 @@
   .main ul {
     list-style: none;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    padding: .5vw;
+    margin: .5vw; }
   .main li {
-    width: 95vw;
-    margin: 2vw;
-    padding: 3vw;
+    width: 90vw;
+    margin: 1vw;
+    padding: 1vw;
     border: #4a4ab8 .5vw solid;
     display: flex;
     flex-direction: column;
@@ -146,6 +158,7 @@
   width: 80vw;
   height: auto; }
 
+/*Adapta mediante grid la estructura del contenido principal de index.html*/
 @media (min-width: 768px) {
   .grid-index {
     display: grid;
@@ -165,6 +178,8 @@
       width: 38vw;
       height: 50vh; } }
 
+/*Transforma, para la versión de escritorio, las listas de las páginas personajes.html y ciudades.html
+en un carrusel de cards para facilitar la lectura y aprovechar la horizontalidad de la pantalla*/
 @media (min-width: 768px) {
   .grid-personajes-y-ciudades {
     display: grid;
@@ -217,6 +232,7 @@
       padding: 2vw;
       border: #4a4ab8 .5vw solid; } }
 
+/*crea un carrusel de la listas para poder leer de forma entendible el contenido*/
 @media (min-width: 768px) {
   .grid-critica {
     display: grid;
@@ -256,6 +272,7 @@
       .grid-critica li .lista-critica p {
         font-size: 2vw; } }
 
+/*transforma en cards la lista de opciones de descarga para facilitar la lectura*/
 @media (min-width: 768px) {
   .grid-descarga {
     display: grid;
@@ -305,6 +322,7 @@
       padding: 2vw;
       border: #4a4ab8 .5vw solid; } }
 
+/*Estilo para el titulo y el pequeño porrafo que lo acompaña cuando el contenido incluye una lista*/
 @media (min-width: 768px) {
   .inicio-h1 {
     grid-area: h1;

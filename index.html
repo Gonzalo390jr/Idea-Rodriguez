@@ -4,9 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="FINAL FANTASY IX, FFIX, VIDEOJUEGOS, ROL, FANPAGE">
+    <!-- Mejoras del SEO-->
+    <meta
+      name="keywords"
+      content="FINAL FANTASY IX, FFIX, VIDEOJUEGOS, ROL, FANPAGE"
+    />
     <title>Final Fantasy IX Fan-Site</title>
-    <meta name="description" content="Página de fans del vidieojuego Final Fantasy IX, donde lo damos a conocer y razones para jugarlo">
+    <meta
+      name="description"
+      content="Página de fans del vidieojuego Final Fantasy IX, donde lo damos a conocer y razones para jugarlo"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,44 +22,77 @@
     />
     <link rel="shortcut icon" href="./img/imagen-pestaña.png" />
     <link rel="stylesheet" href="./css/style.css" />
-
   </head>
 
   <body>
     <div class="grid-container">
+      <!-- Imagen Header -->
       <header class="header">
-        <img src="./img/818Ry4jh0xL.png" alt="logo" />
+        <img src="./img/818Ry4jh0xL.png" alt="logo" href="#"/>
       </header>
-      <ul class="nav nav-pills nav-fill">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./index.html"
-            >INICIO</a
+      <!-- Barra de navegacion -->
+      <nav class="nav navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">CONTENIDO</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="./pages/personajes.html"
-            >PERSONAJES</a
-          >
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="./pages/ciudades.html"
-            >CIUDADES</a
-          >
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="./pages/critica.html"
-            >CRÍTICA</a
-          >
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="./pages/descarga.html"
-            >JUGAR</a
-          >
-        </li>
-      </ul>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >INICIO</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="./pages/personajes.html"
+                  >PERSONAJES</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="./pages/ciudades.html"
+                  >CIUDADES</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="./pages/critica.html"
+                  >CRÍTICA</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="./pages/descarga.html"
+                  >JUGAR</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Contenido Principal del Index -->
       <main class="main grid-index">
         <h1>Final Fantasy IX Fan-Site</h1>
         <img src="./img/imagen-inicio-1.jpg" alt="imagen 1" />
+        <!-- Trailler del juego -->
         <iframe
           src="https://www.youtube.com/embed/iUQMWeFsY8w"
           title="YouTube video player"
@@ -60,6 +100,7 @@
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
+        <!-- ]Sinopsis y promocion de la historia -->
         <p>
           Final Fantasy IX es el último juego de la famosa saga hecho para PSx.
           La historia de este clásico RPG inicia cuando Yitán, nuestro
@@ -70,10 +111,12 @@
           amor, la lealtad y el valor de la vida.
         </p>
       </main>
+      <!-- Pie de la Página -->
       <footer class="footer">
         <p>
           El juego es propiedad de Square Enix, estas son sus redes sociales.
         </p>
+        <!-- Redes sociales Relacionada -->
         <ul>
           <li>
             <a href="https://na.finalfantasy.com">Pagina oficial</a>

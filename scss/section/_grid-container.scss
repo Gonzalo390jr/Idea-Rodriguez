@@ -1,8 +1,9 @@
+/*el display grid para la pagina, en mobile-first*/
 .grid-container {
     display: grid;
     grid-template-columns: 98.5vw;
     overflow: auto;
-    grid-template-rows: 30vh 25vh auto 30vh;
+    grid-template-rows: 30vh 30vh auto 40vh;
     grid-template-areas:
         "header"
         "nav"
@@ -10,6 +11,7 @@
         "footer";
 }
 
+/*media-queri para la vercion de escritorio*/
 @media (min-width: 768px){
     .grid-container {
         grid-template-rows: 50vh 15vh auto 60vh;
