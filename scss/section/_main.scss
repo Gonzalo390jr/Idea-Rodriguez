@@ -1,62 +1,61 @@
 /*Los estilos del contenido principal de la pagina
 Esta pensado para ser una wikia, es decir que la informacion en mobiles se lea en cascada*/
 .main {
-    background-color: #8C8C90;
-    grid-area: main;
+  background-color: #8c8c90;
+  grid-area: main;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  img {
+    width: 70vw;
+    height: auto;
+    @include recuadro(10px, 10px);
+  }
+  h1 {
+    text-align: center;
+    @include recuadro(20px, 20px);
+  }
+  h2 {
+    text-align: -webkit-left;
+    @include recuadro(15px, 15px);
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5vw;
+    margin: 0.5vw;
+  }
+  li {
+    width: 90vw;
+    @include recuadro(1vw, 1vw);
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: auto;
-    img {
-        width: 70vw;
-        height: auto;
-        @include recuadro(10px, 10px);
-    }
-    h1 {
-        text-align: center;
-        @include recuadro(20px, 20px);
-    }
-    h2 {
-        text-align: -webkit-left;
-        @include recuadro(15px, 15px);
-    }
-    ul {
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        padding: .5vw;
-        margin: .5vw;
-    }
-    li {
-        width: 90vw;
-        @include recuadro(1vw, 1vw);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    a {
-        font-size: 5vw;
-        @include recuadro(10px, 10px);
-    }
-    p {
-        @include recuadro(10px, 10px);
-    }
-    iframe {
-        width: 40vw;
-        height: auto;
-        @include recuadro(10px, 10px);
-    }
+  }
+  a {
+    font-size: 5vw;
+  }
+  p {
+    @include recuadro(10px, 10px);
+  }
+  iframe {
+    width: 40vw;
+    height: auto;
+    @include recuadro(10px, 10px);
+  }
 }
 
-.lista-critica{
-    li {
-        width: 85vw;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        @include recuadro(1vw, 2vw);
-    }
-    img {
-        width: 40vw;
-    }
+.lista-critica {
+  li {
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include recuadro(1vw, 2vw);
+  }
+  img {
+    width: 40vw;
+  }
 }

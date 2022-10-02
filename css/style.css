@@ -65,7 +65,7 @@
 /*Los estilos del contenido principal de la pagina
 Esta pensado para ser una wikia, es decir que la informacion en mobiles se lea en cascada*/
 .main {
-  background-color: #8C8C90;
+  background-color: #8c8c90;
   grid-area: main;
   display: flex;
   flex-direction: column;
@@ -91,8 +91,8 @@ Esta pensado para ser una wikia, es decir que la informacion en mobiles se lea e
     list-style: none;
     display: flex;
     flex-direction: column;
-    padding: .5vw;
-    margin: .5vw; }
+    padding: 0.5vw;
+    margin: 0.5vw; }
   .main li {
     width: 90vw;
     margin: 1vw;
@@ -102,10 +102,7 @@ Esta pensado para ser una wikia, es decir que la informacion en mobiles se lea e
     flex-direction: column;
     align-items: center; }
   .main a {
-    font-size: 5vw;
-    margin: 10px;
-    padding: 10px;
-    border: #4a4ab8 .5vw solid; }
+    font-size: 5vw; }
   .main p {
     margin: 10px;
     padding: 10px;
@@ -265,10 +262,7 @@ en un carrusel de cards para facilitar la lectura y aprovechar la horizontalidad
         padding: 2vw;
         border: #4a4ab8 .5vw solid; }
       .grid-critica li .lista-critica .enlace {
-        font-size: 2vw;
-        margin: 2vw;
-        padding: 2vw;
-        border: #4a4ab8 .5vw solid; }
+        font-size: 2vw; }
       .grid-critica li .lista-critica p {
         font-size: 2vw; } }
 
@@ -304,12 +298,10 @@ en un carrusel de cards para facilitar la lectura y aprovechar la horizontalidad
       margin: 2vw;
       padding: 2vw;
       border: #4a4ab8 .5vw solid; }
-    .grid-descarga a {
-      grid-area: final;
-      font-size: 2vw;
-      margin: 2vw;
-      padding: 2vw;
-      border: #4a4ab8 .5vw solid; }
+    .grid-descarga .btn {
+      grid-area: final; }
+      .grid-descarga .btn a {
+        font-size: 2vw; }
     .grid-descarga .form p {
       grid-area: contenido;
       font-size: 2vw;
